@@ -29,7 +29,7 @@ const Counter = () => {
   const handleIncrement = () => {
     let newCount = count + 1;
     // console.log("NEWCOUNT", newCount);
-    newCount = count + 1;
+    // newCount = count + 1;
     // console.log("NEWCOUNT AFTER", newCount);
     if (newCount % 10 === 0) {
       newCount++;
